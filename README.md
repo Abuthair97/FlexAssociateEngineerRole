@@ -43,7 +43,7 @@
 - Abstaction in java refers to hiding the implemention details of code and exposing only the necessary information to end user
 
 ## What is Polymorphism ?
-- Polymorphism allows us to perform single action in different ways . the word poly means many morphism means forms
+- Polymorphism is  the task that  perform single action in different ways . the word poly means many morphism means forms
 - there are two types of polymorphism
 - method overloading (Compile time polymorphism)
 - method overriding (Run time polymorphism)

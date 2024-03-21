@@ -78,4 +78,37 @@
 - mutability : String is immutable . where as String buffer and string builder are mutable
 - Efficiency : working with string is slow , string builder is fastest in programing operations , String buffer is faster than string and slow than string builder
 
+## What are the methods of Object class and what Do they do ?
+- clone() returns a copy of the object
+- equals() returns true when the object is equal to object passed throught the parameter
+- finalize() the garbage collector calls this method while cleaning the memory
+- getClass() returns the runtime class of the object
+- hashCode() returns the hashcode of this object
+- notify() sends notification to single thread waiting for object monitor
+- notifyAll() sends notification to all thread waiting for object monitor
+- toString() return String representation of the object
+- wait() it forces the current thread to wait the specific amount of time untill the another thread calls notify or notify all on this object
+
+
+## What is the difference between hashCode() and equals()
+- equals() is used to test the equality of the object based on their on Content , while hashCode () is used to generate  a  numerical representation of the object's state.
+- hashCode() is return a unique generate a number representing a object's state . it should be compare to equals() to ensure the consistency of comparisons
+
+
+## What is Enum
+- A enum is type of class that allows to specify  a set of predefine constant values.
+- to create such class we have to use keyword enum
+
+## Static Binding
+- Static binding is also know as early binding , occurs during compile-time
+- In static binding the compiler determin which method used called based on type of variable or reference used to invoke this method
+## Dynamic Binding
+- Dynamic binding is also know as late binding , occurs during runtime
+- method resolution is based on the actual type of object at runtime . enabling polymorphism behavior and method overriding 
+
+## what are types of access pecifier ?
+- Public :Accessable from everywhere
+- private : Accessable only within same class
+- protected : Accessable only within same package and subclass
+- default : accessable only within same package
 
